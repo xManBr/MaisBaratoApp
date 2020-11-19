@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Localização do Interesse";
+    Layout = "~/Views/Shared/_LayoutAuto.cshtml";
+}
+
+
+<div class="row">
+
+    <div class="col-md-12">
+        <br />
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        @if (@ViewBag.Subscript != null)
+        {
+            <h2>Localização do Interesse em @ViewBag.Subscript</h2>
+        }
+        else
+        {
+            <h2>Localização do Interesse</h2>
+        }
+    </div>
+</div>
+
+
+<div class="row">
+
+    <div id="map" class="col-md-12" style="width:300px;height:300px"> </div>
+
+</div>
+<script>
+var map;
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: { lat: @(ViewBag.Lat), lng: @(ViewBag.Lng) },
+            zoom: 15
+        });
+        var marker = new google.maps.Marker({
+            position: { lat: @(ViewBag.Lat), lng: @(ViewBag.Lng) },
+            map: map
+        });
+    }
+
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgOpskISoM1FVV82Lx3tRQVKvh1__4fDE&callback=initMap" async defer></script>

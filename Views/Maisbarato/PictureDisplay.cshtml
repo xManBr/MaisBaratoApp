@@ -1,0 +1,13 @@
+﻿
+@{
+    Layout = "";
+}
+
+<style>
+    img {
+        display: inline-block;
+    }
+</style>
+
+
+<img src="data:image/png;base64,@(System.Convert.ToBase64String(ViewBag.ProductPicture))" width="@(ViewBag.width)" height="@(ViewBag.height)" title="Produto" alt="@(Config.IMG_EM_PROCESSAMENTO)" />
