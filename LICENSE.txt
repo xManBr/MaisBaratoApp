@@ -1,11 +1,11 @@
-Este aplicativo usa trechos de código exemplo e "Open Source" colhidos na internet livre - Stack Overflow e etc.
-O acesso e uso a esse código autoral (SITE e API) é livre sem restrições especiais.
-O acesso e uso ao código de terceiros "Open Source" segue as restrições de seus respectivos autores. 
-A aplicação mobile client esta disnpível em:
+This application uses snippets of example code and "Open Source" collected from the free internet - Stack Overflow and etc.
+Access and use of this copyright code (SITE and API) is free without special restrictions.
+Access to and use of third party code "Open Source" follows the restrictions of their respective authors.
+The mobile client application is available in:
 https://play.google.com/store/apps/details?id=com.maisbarato.maisbaratoapp&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1
-O acesso ao código da aplicação CLIENT mobile não está disponível.
+Access to the CLIENT mobile application code is not available.
 
-São Paulo, 19 de novembro de 2020.
+SÃ£o Paulo, November 19, 2020.
 MAISBARATO.APP
 
 
